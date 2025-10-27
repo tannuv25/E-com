@@ -2,6 +2,9 @@ import React, { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
+
+import data from '../data/Testimonialdata.json' 
+
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
@@ -13,7 +16,9 @@ import { useNavigate } from 'react-router-dom';
 
 import { getTestimonial } from "../Redux/ActionCreators/TestimonialActionCreators"
 export default function Testimonials() {
-    let TestimonialStateData = useSelector(state => state.TestimonialStateData)
+    // let TestimonialStateData = useSelector(state => state.TestimonialStateData)
+    let TestimonialStateData = data
+
     let dispatch = useDispatch()
 
     let [slidesPerView, setSlidesPerView] = useState(window.innerWidth < 1000 ? 1 : 3)
@@ -63,7 +68,8 @@ export default function Testimonials() {
                                 <div className="testimonial-item border p-4">
                                     <div className="d-flex align-items-center">
                                         <div className="">
-                                            <img src={`${process.env.REACT_APP_BACKEND_SERVER}/${item.pic}`} height={100} alt="" />
+                                            {/* <img src={`${process.env.REACT_APP_BACKEND_SERVER}/${item.pic}`} height={100} alt="" /> */}
+                                            <img src= {item.pic}height={100} alt="" /> 
                                         </div>
                                         <div className="ms-4">
                                             <h4 className="text-secondary">{item.name}</h4>

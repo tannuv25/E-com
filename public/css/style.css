@@ -664,3 +664,74 @@
 }
 
 /*** Footer End ***/
+
+
+/* ---------- Product Grid Layout ---------- */
+.project {
+  background-color: #fff;
+}
+
+.project-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* ---------- Image Styling ---------- */
+.project-img img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 12px;
+  display: block;
+}
+
+/* ---------- Overlay Content ---------- */
+.project-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 51, 153, 0.85);
+  color: #fff;
+  text-align: center;
+  padding: 12px 0;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.project-item:hover .project-content {
+  opacity: 1;
+}
+
+/* ---------- Text Formatting ---------- */
+.project-content h6 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+.project-content p {
+  font-size: 0.9rem;
+  color: #fff;
+}
+
+.project-content del {
+  color: #f0a500;
+  margin-right: 5px;
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 768px) {
+  .project-img img {
+    height: 220px;
+  }
+}

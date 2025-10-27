@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "Aarav Sharma",
+    "pic": "../../img/team-2.jpg",
+    "message": "ShopKaro has completely transformed my online shopping experience. The delivery was fast, and the quality exceeded my expectations!",
+    "active": true
+  },
+  {
+    "id": 2,
+    "name": "Priya Mehta",
+    "pic": "../../img/team-1.jpg",
+    "message": "Excellent customer support and a wide range of products. I especially loved how simple the checkout process was!",
+    "active": true
+  },
+  {
+    "id": 3,
+    "name": "Rohan Verma",
+    "pic": "https://randomuser.me/api/portraits/men/18.jpg",
+    "message": "The deals and discounts here are unbeatable! Highly recommended for anyone looking for great value and service.",
+    "active": true
+  },
+  {
+    "id": 4,
+    "name": "Ananya Singh",
+    "pic": "https://randomuser.me/api/portraits/women/55.jpg",
+    "message": "Beautifully designed website with an amazing user interface. The product images and details were spot-on!",
+    "active": true
+  },
+  {
+    "id": 5,
+    "name": "Karan Patel",
+    "pic": "https://randomuser.me/api/portraits/men/12.jpg",
+    "message": "Fast shipping, secure payments, and the best product range in electronics. Definitely shopping here again!",
+    "active": false
+  }
+]
