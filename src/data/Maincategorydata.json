@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "name": "Electronics",
+    "pic": "../../img/project-3.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Fashion",
+    "pic": "../../img/banner1.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Home Decor",
+    "pic": "../../img/project-2.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Sports",
+    "pic": "../../img/banner10.jpg"
+  }
+]
