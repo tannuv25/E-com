@@ -101,3 +101,8 @@ export const UPDATE_CONTACT_US = "UPDATE_CONTACT_US"
 export const UPDATE_CONTACT_US_RED = "UPDATE_CONTACT_US_RED"
 export const DELETE_CONTACT_US = "DELETE_CONTACT_US"
 export const DELETE_CONTACT_US_RED = "DELETE_CONTACT_US_RED"
+
+// AUTH
+export const LOGIN = "LOGIN";
+export const LOGIN_RED = "LOGIN_RED";
+export const LOGOUT = "LOGOUT";

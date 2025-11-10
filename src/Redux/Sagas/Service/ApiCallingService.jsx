@@ -80,3 +80,4 @@ export async function deleteRecord(collection, payload) {
         console.log(error)
     }
 }
+
